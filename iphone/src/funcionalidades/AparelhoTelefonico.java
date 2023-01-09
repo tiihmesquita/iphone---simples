@@ -1,14 +1,8 @@
 package funcionalidades;
 
-public class AparelhoTelefonico {
-    
-    public void ligar(){
+public interface AparelhoTelefonico {
 
-    }
-    public void atender(){
-
-    }
-    public void iniciarCorreidoVoz(){
-
-    }
+    public void ligar();
+    public void atender();
+    public void iniciarCorreidoVoz();
 }
